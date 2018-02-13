@@ -1,15 +1,12 @@
 /*
- * Author: 
+ * Author: Ajalon Corcoran
  * Date: 02-12-17
  * Assignment: Assignment3 Package.java
  * Description: 
  */
 
-
-
-
 public abstract class Package {
-    
+
     int id;
     Person recever;
     Person sender;
@@ -23,11 +20,11 @@ public abstract class Package {
         this.id = id;
         this.recever = recever;
         this.sender = sender;
-        if(packageWeight < 0){
+        if (packageWeight < 0) {
             this.packageWeight = 0;
         }
         this.packageWeight = packageWeight;
-        if(packagePricePerOunce < 0){
+        if (packagePricePerOunce < 0) {
             this.packagePricePerOunce = 0;
         }
         this.packagePricePerOunce = packagePricePerOunce;
@@ -62,7 +59,7 @@ public abstract class Package {
     }
 
     public void setPackageWeight(double packageWeight) {
-        if(packageWeight < 0){
+        if (packageWeight < 0) {
             this.packageWeight = 0;
         }
         this.packageWeight = packageWeight;
@@ -73,27 +70,21 @@ public abstract class Package {
     }
 
     public void setPackagePricePerOunce(double packagePricePerOunce) {
-        if(packagePricePerOunce < 0){
+        if (packagePricePerOunce < 0) {
             this.packagePricePerOunce = 0;
         }
         this.packagePricePerOunce = packagePricePerOunce;
     }
-    
+
     abstract public double calculateCost();
 
     @Override
     public String toString() {
-        return  "\nid: " + id +
-                "\nreceve: " + recever + 
-                "\nsender: " + sender + 
-                "\npackageWeight: " + packageWeight + 
-                "\npackagePricePerOunce: " + packagePricePerOunce;
+        return "\nid: " + id
+                + "\nreceve: " + recever
+                + "\nsender: " + sender
+                + "\npackageWeight: " + packageWeight
+                + "\npackagePricePerOunce: " + packagePricePerOunce;
     }
-    
 
-    
-    
-   
-    
-    
 }
