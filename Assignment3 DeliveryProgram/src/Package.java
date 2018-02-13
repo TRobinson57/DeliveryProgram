@@ -1,9 +1,11 @@
 /*
+
  * Author: Ajalon Corcoran
  * Date: 02-12-17
  * Assignment: Assignment3 Package.java
  * Description: 
  */
+
 
 public abstract class Package {
 
@@ -86,5 +88,12 @@ public abstract class Package {
                 + "\npackageWeight: " + packageWeight
                 + "\npackagePricePerOunce: " + packagePricePerOunce;
     }
+
+=======
+
+
+
+public class Package {
+    
 
 }
