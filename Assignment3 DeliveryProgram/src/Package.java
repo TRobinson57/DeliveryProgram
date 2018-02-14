@@ -1,5 +1,4 @@
 /*
-
  * Author: Ajalon Corcoran
  * Date: 02-12-17
  * Assignment: Assignment3 Package.java
@@ -83,17 +82,10 @@ public abstract class Package {
     @Override
     public String toString() {
         return "\nid: " + id
-                + "\nreceve: " + recever
+                + "\nrecever: " + recever
                 + "\nsender: " + sender
                 + "\npackageWeight: " + packageWeight
                 + "\npackagePricePerOunce: " + packagePricePerOunce;
     }
 
-=======
-
-
-
-public class Package {
-    
-
-}
+}   //end class
