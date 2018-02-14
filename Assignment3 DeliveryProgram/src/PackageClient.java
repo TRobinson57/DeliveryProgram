@@ -12,28 +12,23 @@
 import java.util.Scanner;
 import java.util.ArrayList;
 
-
 public class PackageClient {
     
     public static void main(String[] args){
         Scanner console = new Scanner(System.in);
         
-
         ArrayList<Package>PackageList = new ArrayList<Package>();
         
         
         
         while(true){
         System.out.print("\n1 :Create a regular package object\n" +
-        while(true){
-        System.out.print("1 :Create a regular package object\n" +
                 "2 :Create a two-day package object\n" +
                 "3 :Create an overnight package object\n" +
                 "4 :Loop through the array/ArrayList to show all the packages\n" +
                 "0 :To end the program   ");
        int command = console.nextInt();
        
-
        switch(command){
            case 1:
                
