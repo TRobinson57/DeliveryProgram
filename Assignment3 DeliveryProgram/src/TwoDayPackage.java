@@ -1,11 +1,9 @@
 /*
-
  * Author: Ajalon Corcoran
  * Date: 02-12-17
  * Assignment: Assignment3 TwoDayPackage.java
  * Description: 
  */
-
 
 public class TwoDayPackage extends Package {
 
@@ -75,9 +73,9 @@ public class TwoDayPackage extends Package {
     public void setPackagePricePerOunce(double packagePricePerOunce) {
         this.packagePricePerOunce = packagePricePerOunce;
     }
-    
+
     @Override
-    public double calculateCost() {        
+    public double calculateCost() {
      return  packageWeight * packagePricePerOunce + flatFee;
     }
 
@@ -85,13 +83,7 @@ public class TwoDayPackage extends Package {
     public String toString() {
         return "\nflatFee:" + flatFee + '}';
     }
+
     
-    
-
-=======
-
-
-
-public class TwoDayPackage {
 
 }
