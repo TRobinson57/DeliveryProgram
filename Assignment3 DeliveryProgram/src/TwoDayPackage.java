@@ -81,9 +81,9 @@ public class TwoDayPackage extends Package {
 
     @Override
     public String toString() {
-        return "\nflatFee:" + flatFee + '}';
+        return "\nflatFee:" + flatFee;
     }
 
     
-
+    
 }
