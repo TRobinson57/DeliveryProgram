@@ -1,12 +1,9 @@
  /*
-   *Author: Timothy Robinson
- - *Date:
- - *Assignment: Assignment .java
- - *Description:
- + *Date:1/29/2018
- + *Assignment: Assignment2 Person.java
- + *Description: Stores persons first name and last name.
-   */
+  *Author: Timothy Robinson
+  *Date:02/13/2018
+  *Assignment: Assignment3 Person.java
+  *Description: Stores persons first name and last name.
+  */
   
   
  public class Person {
