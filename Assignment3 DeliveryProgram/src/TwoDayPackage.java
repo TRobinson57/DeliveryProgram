@@ -1,11 +1,13 @@
-/*
+<<<<<<< HEAD
 
+=======
+>>>>>>> 35151fe62f84ac892e0bfb10ba25771afb556fdb
+/*
  * Author: Ajalon Corcoran
  * Date: 02-12-17
  * Assignment: Assignment3 TwoDayPackage.java
  * Description: 
- */
-
+*/
 
 public class TwoDayPackage extends Package {
 
@@ -83,15 +85,19 @@ public class TwoDayPackage extends Package {
 
     @Override
     public String toString() {
-        return "\nflatFee:" + flatFee + '}';
+<<<<<<< HEAD
+        return "Flat Fee: " + flatFee 
+                + "\nid: " + id
+                + "\nreceve: " + recever
+                + "\nsender: " + sender
+                + "\npackageWeight: " + packageWeight
+                + "\npackagePricePerOunce: " + packagePricePerOunce;
+    }
+=======
+        return "\nflatFee:" + flatFee;
     }
     
     
 
-=======
-
-
-
-public class TwoDayPackage {
-
+>>>>>>> 35151fe62f84ac892e0bfb10ba25771afb556fdb
 }
