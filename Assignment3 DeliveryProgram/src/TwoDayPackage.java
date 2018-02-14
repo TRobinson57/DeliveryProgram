@@ -74,9 +74,9 @@ public class TwoDayPackage extends Package {
     public void setPackagePricePerOunce(double packagePricePerOunce) {
         this.packagePricePerOunce = packagePricePerOunce;
     }
-    
+
     @Override
-    public double calculateCost() {        
+    public double calculateCost() {
      return  packageWeight * packagePricePerOunce + flatFee;
     }
 
@@ -89,6 +89,7 @@ public class TwoDayPackage extends Package {
                 + "\npackageWeight: " + packageWeight
                 + "\npackagePricePerOunce: " + packagePricePerOunce;
     }
+
     
- 
+
 }
