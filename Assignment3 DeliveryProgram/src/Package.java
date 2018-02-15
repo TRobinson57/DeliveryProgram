@@ -86,8 +86,4 @@ public abstract class Package {
                 + "\npackageWeight: " + packageWeight
                 + "\npackagePricePerOunce: " + packagePricePerOunce;
     }
-<<<<<<< HEAD
-=======
-
->>>>>>> 35151fe62f84ac892e0bfb10ba25771afb556fdb
 }

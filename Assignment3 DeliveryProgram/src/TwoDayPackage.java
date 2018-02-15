@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 
-=======
->>>>>>> 35151fe62f84ac892e0bfb10ba25771afb556fdb
 /*
  * Author: Ajalon Corcoran
  * Date: 02-12-17
@@ -85,7 +82,6 @@ public class TwoDayPackage extends Package {
 
     @Override
     public String toString() {
-<<<<<<< HEAD
         return "Flat Fee: " + flatFee 
                 + "\nid: " + id
                 + "\nreceve: " + recever
@@ -93,11 +89,6 @@ public class TwoDayPackage extends Package {
                 + "\npackageWeight: " + packageWeight
                 + "\npackagePricePerOunce: " + packagePricePerOunce;
     }
-=======
-        return "\nflatFee:" + flatFee;
-    }
     
-    
-
->>>>>>> 35151fe62f84ac892e0bfb10ba25771afb556fdb
+ 
 }
