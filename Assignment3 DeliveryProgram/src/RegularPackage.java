@@ -104,6 +104,7 @@ public class RegularPackage extends Package {
                 + "\nsender: " + sender
                 + "\npackageWeight: " + packageWeight
                 + "\npackagePricePerOunce: " + packagePricePerOunce;
+
     }    
     
 }
